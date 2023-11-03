@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/dorime" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="root" password="qwerty" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/dorime?useSSL=false&amp;serverTimezone=UTC"/>
+
+</Context>

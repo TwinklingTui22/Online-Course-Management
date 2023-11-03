@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	background-color: #DEF5E5;
+}
+
+/*************************************************/
+/*HEADER*/
+/*************************************************/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+	padding: 3.2rem 4.8rem;
+	background-color: #8EC3B0;
+}
+
+.website-name {
+	font-size: 2.6rem;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 0.3rem;
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	gap: 2rem;
+}
+
+.butto {
+	background-color: red;
+	width: 10rem;
+	height: 3.5rem;
+	border-radius: 1rem;
+	font-size: 1.6rem;
+	font-weight:bold;
+	padding-top: 0.9rem;
+	text-align:center;
+	color:white;
+	
+}
+.logout{
+	color:white;
+	text-decoration:none;
+}
+
+
+.butto:hover {
+	background-color: rgb(231, 67, 67);
+	cursor: pointer;
+}
+
+.icons {
+	color: black;
+	height: 2rem;
+	width: 2rem;
+}
+
+.user-name {
+	font-size: 1.8rem;
+	font-weight: bolder;
+	text-align: end;
+	height: 15rem;
+	padding-left: 0rem;
+	padding-top: 6.5rem;
+}
+
+.course-title {
+	height: 8rem;
+	text-align: center;
+	font-size: 2.6rem;
+	font-weight: bold;
+	padding-top: 2.6rem;
+}
+
+hr {
+	border: 0;
+	border-top: 0.2px solid #8EC3B0;
+	margin-bottom: 10rem;
+}
+
+.student-list {
+	min-height: 45rem;
+}
+
+.people {
+	margin-left: 20rem;
+	margin-right: 20rem;
+	min-height: 38rem;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+
+.list-title {
+	font-size: 2.6rem;
+	line-height: 2rem;
+	font-weight: bold;
+	--padding-left: 45rem;
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+.container-4 {
+	width: 77rem;
+	padding-bottom:3rem;
+	border-radius:7px;
+	padding-top: 2rem;
+	box-shadow: 0.07px 0.07px 6px rgb(158, 157, 157);
+	background-color:white;
+}
+
+.student-info {
+	display: flex;
+	justify-content: space-evenly;
+	height: 5rem;
+	align-items: center;
+}
+
+.user-name2 {
+	font-size: 1.6rem;
+}
+
+.user-email {
+
+	font-size: 1.6rem;
+}
+
+.void-clean {
+	height: 1rem;
+}
+
+.void {
+	height: 12rem;
+}
+
+.border:after { /* this is the border */
+	content: "";
+	display: block;
+	width: 50rem;
+	border-bottom: 0.1rem solid #8EC3B0;
+	margin: 1em auto 0;
+}
+
+.footer {
+	height: 6rem;
+	background-color: #BCEAD5;
+	text-align: center;
+	padding-top: 2.5rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: grey;
+	padding-bottom: 0rem;
+}

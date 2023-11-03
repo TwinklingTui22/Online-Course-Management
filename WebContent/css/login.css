@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color:#c4ebda;
+
+}
+
+.container{
+	background-color:#c4ebda;
+}
+
+.header{
+	font-size:4.8rem;
+	font-weight:700;
+	color: #395B64;
+	padding-top:4.8rem;
+	text-align:center;
+	
+	line-height:58px;
+	letter-spacing:0.09rem;
+	
+	
+}
+
+.container-2{
+	background-color:white;
+	height:45rem;
+	width:100rem;
+	margin-top:7rem;
+	margin-left:20rem;
+	margin-right:27rem;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    display:flex;
+	
+}
+
+.container-3{
+	border-top-left-radius: 10px;
+    
+    border-bottom-left-radius: 10px;
+    
+	width:50rem;
+}
+.container-4{
+	
+	
+    border-top-right-radius: 10px;
+    
+    border-bottom-right-radius: 10px;
+	width:70rem;
+}
+
+
+h1{
+	font-size:2.8rem;
+	text-align:center;
+	padding-top:6rem;
+	padding-bottom:6rem;
+	padding-left:3.5rem;
+	
+	
+}
+
+--.form-field{
+	--height:5rem;
+	--width:31rem;
+	--background-color:white;
+	--margin-bottom:3.5rem;
+	--margin-left:8rem;
+	--box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	--display: flex;
+}
+
+
+.email{
+	width:32rem;
+	padding-left:4rem;
+	padding-top:1rem;
+	margin-left:1rem;
+	height:5rem;
+	border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+	
+}
+.pass{
+	width:32rem;
+	padding-left:4rem;
+	padding-top:1rem;
+	height:5rem;
+	margin-left:1rem;
+	border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.button{
+  background-color: #8EC3B0;
+
+  font-size: 2.2rem;
+  font-weight: bolder;
+  width: 32rem;
+  height: 5rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin-left:6rem;
+  
+  color: white;
+  padding-top:0.4rem;
+  
+  border:none;
+}
+
+.button:hover{
+	background-color:#7dbaa4;
+	cursor: pointer;
+}
+.input-field{
+	display:flex;
+	--width:1rem;
+}
+
+.icons {
+	
+    color: black;
+    height: 2.2rem;
+    width: 2.2rem;
+    padding-top:1.6rem;
+    margin-left:3rem;
+    position: relative;
+    top: 1px;
+    left: 37px;
+    
+}
+
+.field-title{
+	
+	font-size:1.6rem;
+	padding-top:2rem;
+	padding-left:1.5rem;
+	color:#888888;
+	
+}
+
+.img{
+	object-fit: fill;
+	width:40rem;
+	height:40rem;
+	border-top-left-radius: 10px;
+    padding-top:2rem;
+    padding-left:8rem;
+    border-bottom-left-radius: 10px;
+}
+

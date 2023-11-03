@@ -1,0 +1,260 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	background-color: #DEF5E5;
+}
+
+/*************************************************/
+/*HEADER*/
+/*************************************************/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+	padding: 3.2rem 4.8rem;
+	background-color: #8EC3B0;
+}
+
+.website-name {
+	font-size: 2.6rem;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 0.3rem;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	gap: 2rem;
+}
+
+.button {
+	background-color: red;
+	width: 10rem;
+	height: 3.5rem;
+	border-radius: 1rem;
+	font-size: 1.6rem;
+	font-weight:bold;
+	padding-top: 0.9rem;
+	text-align:center;
+	color:white;
+	
+}
+.logout{
+	color:white;
+	text-decoration:none;
+}
+
+
+.button:hover {
+	background-color: rgb(231, 67, 67);
+	cursor: pointer;
+}
+
+.icons {
+	color: black;
+	height: 2.2rem;
+	width: 2.2rem;
+}
+
+.my-courses {
+	background-color: #DEF5E5;
+	padding-top: 8rem;
+}
+
+.container {
+	background-color: #c4ebda;
+	padding-top: 4rem;
+	min-height: 43rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+}
+
+.container-all {
+	min-height: 30rem;
+	padding-top: 2rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+}
+
+.void {
+	height: 12rem;
+}
+
+.container-2 {
+	padding-left: 5rem;
+	padding-right: 7rem;
+	width: 120rem;
+	
+}
+
+.title {
+	color: black;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	font-size: 2.5rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	box-sizing: border-box;
+	align-self: center;
+	column-gap: 8rem;
+}
+
+.course-item {
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	height: 42rem;
+	margin-bottom: 10rem;
+	box-shadow: 0.07px 0.07px 6px rgb(158, 157, 157);
+	background-color:white;
+	transition: transform 0.2s ease-in-out;
+}
+
+.course-item:hover{
+	transform: scale(1.03);
+	box-shadow: 0.14px 0.14px 12px rgb(158, 157, 157);
+	
+}
+
+.img {
+	height: 16rem;
+}
+
+.course-img {
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	height: 16rem;
+	width: 32rem;
+	object-fit: fill;
+}
+
+.course-title {
+	padding-bottom:1rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.9rem;
+	padding-top: 1rem;
+}
+
+.course-description{
+	margin-bottom:2rem;
+}
+
+.con{
+	background-color:white;
+	height: 5rem;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+}
+
+.add-course{
+	display:flex;
+	margin-bottom:4rem;
+	margin-right:6rem;
+	text-decoration:none;
+	background-color: #8EC3B0;
+	border-radius: 1rem;
+	font-size: 1.6rem;
+	font-weight:bold;
+	width:16rem;
+	height:4rem;
+	margin-left:auto;
+	color:white;
+	align-items:center;
+	justify-content:center;
+}
+
+.add-course:hover{
+	background-color: #77b8a0;
+	
+}
+
+
+.card-btn {
+	background-color: #8EC3B0;
+
+	width: 26rem;
+	height: 3rem;
+	border-radius: 1rem;
+	font-size: 1.6rem;
+	font-weight:bold;
+	padding-top: 0.6rem;
+	text-align:center;
+	color:white;
+	margin-left:3rem;
+	border: none;
+	text-decoration:none;
+}
+
+.bttn {
+	color:white;
+	text-decoration:none;
+}
+
+
+.card-btn:hover {
+	background-color: #77b8a0;
+    color:white;
+	cursor: pointer;
+}
+.container-3 {
+	height: 13rem;
+	background-color: #F0F0F0;
+	font-size: 1.5rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	padding-top: 1.5rem;
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	border-radius:7px;
+	padding-bottom:1rem;
+}
+
+ul{
+	padding-left:4rem;
+	list-style:square;
+	font-size:1.3rem;
+	color: #333333;
+}
+
+li{
+	padding: 0.3rem;
+}
+
+.teacher-name{
+	text-align:center;
+	font-size: 1.2rem;
+	margin-bottom:1rem;	
+}
+
+.footer {
+	height: 6rem;
+	background-color: #BCEAD5;
+	text-align: center;
+	padding-top: 2.5rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: grey;
+	padding-bottom: 0rem;
+}
